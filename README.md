@@ -1,31 +1,20 @@
-# Отчёт о тестировании **приложения "Credit Card Number Validator"**
+# Отчёт о тестировании **приложения "Money Transfer"**
 
 ## Краткое описание
 
-04.07.2020 - 04.07.2020 было проведено функциональное позитивное тестирование приложения Credit Card Number Validator.
+08.07.2020 - 08.07.2020 было проведено функциональное позитивное тестирование приложения Money Transfer.
 
 На тестирование затрачено: 0,3 часа.
 
 В результате тестирования выявлены следующие дефекты:
-* Дефекты не выявлены.
+1. [Неверный тип для переменной TotalBalance](https://github.com/Volgogradec/JAVA_02_Task1/issues/1#issue-653539040)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
-* Документация: "[Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)";
-* Исполняемый код приложения: [Задача №2 - Credit Card Number Validator](https://github.com/netology-code/javaqa-homeworks/tree/master/intro).
+* Исполняемый код приложения: [Приложение Money Transfer](https://github.com/Volgogradec/JAVA_02_Task1/blob/master/src/Main.java).
 
-В качестве тестовых данных использовались данные с сайта [freeformatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html):
-
-Валидные значения номеров карт:
-* 4929266816739418
-* 4063719622746411
-* 5548634878046162
-* 6304716650501225
-
-Невалидные значения номеров карт:
-* 4539704264395424983
-* 6011023529493318309
+В качестве тестовых данных использовались данные из [Задача №1 - Money Transfer](https://github.com/netology-code/javaqa-homeworks/tree/master/programming#%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0).
 
 Тестирование производилось в следующем окружении:
 * Windows 10 Pro версия 1903, сборка ОС: 18362.720, разрядность ОС: x64;
